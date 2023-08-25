@@ -1,6 +1,6 @@
 package JAVA_8.functionalInterfaces.withrespecttoinheritance;
 
-@FunctionalInterface
+//@FunctionalInterface
 public interface B extends A {
-    public void m1();
+    public void m2();
 }
