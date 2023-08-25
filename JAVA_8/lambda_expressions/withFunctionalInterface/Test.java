@@ -2,8 +2,12 @@ package JAVA_8.lambda_expressions.withFunctionalInterface;
 
 public class Test {
     public static void main(String[] args) {
-//        Demo d = new Demo();
-        Interf d = new Demo();
+        Interf d = () -> System.out.println("Hello... using Lambda Expression.");
+        d.m1();
+        d.m1();
+        d.m1();
+        d.m1();
+        d.m1();
         d.m1();
     }
 }
