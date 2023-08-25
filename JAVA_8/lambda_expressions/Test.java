@@ -1,4 +1,4 @@
-package JAVA_8.Intro;
+package JAVA_8.lambda_expressions;
 
 import java.util.function.Function;
 import java.util.function.Predicate;
