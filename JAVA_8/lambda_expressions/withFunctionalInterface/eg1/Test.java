@@ -1,4 +1,4 @@
-package JAVA_8.lambda_expressions.withFunctionalInterface;
+package JAVA_8.lambda_expressions.withFunctionalInterface.eg1;
 
 public class Test {
     public static void main(String[] args) {
