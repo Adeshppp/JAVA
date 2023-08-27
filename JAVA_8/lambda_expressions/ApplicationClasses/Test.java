@@ -12,8 +12,9 @@ public class Test {
         list.add(new Employee("C",6532673));
         list.add(new Employee("A",6473646));
         System.out.println(list);
-        Comparator<Employee> c = (l1,l2)->(l1.name.compareTo(l2.name));
+        Comparator<Employee> c = (l2,l1)-> l1.employeeNumber> l2.employeeNumber?1:l1.employeeNumber< l2.employeeNumber?-1:0;
         Collections.sort(list,c);
         System.out.println(list);
+        System.out.println(list.get(1));
     }
 }
