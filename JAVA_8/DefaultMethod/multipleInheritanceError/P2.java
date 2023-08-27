@@ -1,4 +1,4 @@
-package JAVA_8.DefaultMethod.multipleInheritance;
+package JAVA_8.DefaultMethod.multipleInheritanceError;
 
 public class P2 {
     public void m1(){
