@@ -5,7 +5,7 @@ package JAVA_8.functionalInterfaces;
 public interface Interf {
 
     // Abstract method
-    public void m1();
+    void m1();
 
     // Default method
     default void m2(){
@@ -13,7 +13,7 @@ public interface Interf {
     }
 
     // Static method
-    public static void m3(){
+    static void m3(){
 
     }
 }
