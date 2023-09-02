@@ -1,15 +1,15 @@
-package tp;
+package File_Organiser;
 
 import java.io.*;
 
-public class SRTFileDeleter {
+public class VTTFileDeleter {
 
     public static void main(String[] args) {
         String rootDirectory = "/Users/adeshpadwal/Courses";
-        deleteSRTFiles(rootDirectory);
+        deleteVTTFiles(rootDirectory);
     }
 
-    public static void deleteSRTFiles(String directoryPath) {
+    public static void deleteVTTFiles(String directoryPath) {
         File rootDirectory = new File(directoryPath);
         File[] files = rootDirectory.listFiles();
 
@@ -20,10 +20,10 @@ public class SRTFileDeleter {
 
         for (File file : files) {
             if (file.isDirectory()) {
-                deleteSRTFiles(file.getAbsolutePath());
+                deleteVTTFiles(file.getAbsolutePath());
             } else {
                 String fileName = file.getName().toLowerCase();
-                if (fileName.endsWith(".srt")) {
+                if (fileName.endsWith(".vtt")) {
                     if (file.delete()) {
                         System.out.println("Deleted: " + file.getAbsolutePath());
                     } else {
