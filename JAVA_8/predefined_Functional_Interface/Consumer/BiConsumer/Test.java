@@ -1,4 +1,4 @@
-package JAVA_8.predefined_Functional_Interface.BiConsumer;
+package JAVA_8.predefined_Functional_Interface.Consumer.BiConsumer;
 
 import java.util.ArrayList;
 import java.util.function.BiConsumer;

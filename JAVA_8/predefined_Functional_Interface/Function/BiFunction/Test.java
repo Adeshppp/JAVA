@@ -1,4 +1,4 @@
-package JAVA_8.predefined_Functional_Interface.BiFunction;
+package JAVA_8.predefined_Functional_Interface.Function.BiFunction;
 
 import java.util.ArrayList;
 import java.util.function.BiFunction;
