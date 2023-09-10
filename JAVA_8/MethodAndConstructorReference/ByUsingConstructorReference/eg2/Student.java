@@ -12,7 +12,4 @@ public class Student {
     int marks;
     int age;
 
-//    public Student(String name, String rollNo, int marks, int age) {
-//
-//    }
 }
