@@ -21,6 +21,14 @@ public class BinaryTrees {
             newNode.right = buildTree(nodes);
             return newNode;
         }
+
+        public static void preorder(Node root){
+            if(root == null) return;
+            System.out.print(root.data+" --> ");
+            preorder(root.left);
+            preorder(root.right);
+
+        }
     }
 
     public static void main(String[] args) {
@@ -31,6 +39,8 @@ public class BinaryTrees {
         System.out.println("root left is "+root.left.data);
 
         System.out.println("root right is "+root.right.data);
+        System.out.print("Preorder traversal : ");
+        tree.preorder(root);
 
     }
 }
