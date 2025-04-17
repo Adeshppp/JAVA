@@ -302,4 +302,4 @@ We can detect cycles in directed graph by using
 1. DFS
 2. BFS
 3. Topological sorting using Kahn's Algorithm
-4. 
+4. Graph coloring
